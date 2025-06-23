@@ -26,10 +26,10 @@ public class KnowledgeClass {
         return 0; // 同じ強さ
     }
 
-    // ビッド数の決定（条件に応じて書き換え済み）
+    // 賭け金の決定（条件に応じて書き換え済み）
     public String bid() {
 
-        // ビッドする前にゲーム履歴情報を更新する
+        // 賭ける前にゲーム履歴情報を更新する
         HistoryUpdate();
 
         int b = 1; // デフォルトは1ドル
